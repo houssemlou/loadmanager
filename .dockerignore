@@ -1,0 +1,8 @@
+.git
+*.md
+# Tests and test tooling are never part of the image (the runtime stage ships only the binary + configs).
+**/*_test.go
+scenarios
+# Generated diagrams
+.archify
+docs

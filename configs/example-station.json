@@ -1,0 +1,23 @@
+{
+  "station_id": "example-dc-hub",
+  "grid_capacity_kw": 400,
+  "safety_margin_kw": 0,
+  "chargers": [
+    {
+      "id": "CP1",
+      "max_power_kw": 300,
+      "connectors": [
+        { "id": "1", "type": "CCS" },
+        { "id": "2", "type": "CCS" }
+      ]
+    },
+    {
+      "id": "CP2",
+      "max_power_kw": 300,
+      "connectors": [
+        { "id": "1", "type": "CCS" },
+        { "id": "2", "type": "CCS" }
+      ]
+    }
+  ]
+}

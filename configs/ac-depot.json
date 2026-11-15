@@ -1,0 +1,13 @@
+{
+  "station_id": "example-ac-depot",
+  "grid_capacity_kw": 66,
+  "safety_margin_kw": 2,
+  "chargers": [
+    { "id": "AC1", "max_power_kw": 22, "connectors": [{ "id": "1", "type": "Type2" }] },
+    { "id": "AC2", "max_power_kw": 22, "connectors": [{ "id": "1", "type": "Type2" }] },
+    { "id": "AC3", "max_power_kw": 22, "connectors": [{ "id": "1", "type": "Type2" }] },
+    { "id": "AC4", "max_power_kw": 22, "connectors": [{ "id": "1", "type": "Type2" }] },
+    { "id": "AC5", "max_power_kw": 22, "connectors": [{ "id": "1", "type": "Type2" }] },
+    { "id": "AC6", "max_power_kw": 22, "connectors": [{ "id": "1", "type": "Type2", "max_power_kw": 11 }] }
+  ]
+}

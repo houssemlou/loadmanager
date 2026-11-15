@@ -1,0 +1,12 @@
+services:
+  loadmanager:
+    build: .
+    image: loadmanager:local
+    ports:
+      - "8080:8080"
+    environment:
+      # Switch station topology without rebuilding, e.g.:
+      #   STATION_CONFIG=ac-depot.json docker compose up
+      CONFIG_PATH: /app/configs/${STATION_CONFIG:-example-station.json}
+    volumes:
+      - ./configs:/app/configs:ro
